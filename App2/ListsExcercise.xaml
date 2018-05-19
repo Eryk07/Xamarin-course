@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.ListsExcercise">
+    <StackLayout>
+        <SearchBar Placeholder="Search.."  TextChanged="Handle_TextChanged" />
+        <ListView x:Name="listView" IsPullToRefreshEnabled="True" Refreshing="Handle_Refreshing">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Location}" Detail="{Binding Period2}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+ 
+</ContentPage>

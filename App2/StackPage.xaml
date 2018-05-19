@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             Padding="0,20,0,0"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.StackPage"
+               >
+    <StackLayout BackgroundColor="BlueViolet" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="40" Orientation="Horizontal">
+        <StackLayout BackgroundColor="ForestGreen">
+            <Image Source="https://i.ytimg.com/vi/H93zr73FvzE/maxresdefault.jpg" MinimumHeightRequest="10" MinimumWidthRequest="10"/>
+            <Label Text="Label 1"/>
+        </StackLayout>
+        
+    
+        
+        <Label Text="Label 2"/>
+        <Label Text="Label 3"/>
+
+    </StackLayout>
+</ContentPage>
